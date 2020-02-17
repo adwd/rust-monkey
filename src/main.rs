@@ -1,3 +1,5 @@
+use rust_monkey::token::token;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello {}", token::hello());
 }
